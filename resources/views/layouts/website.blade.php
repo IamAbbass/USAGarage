@@ -20,8 +20,7 @@
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link rel="alternate" type="application/rss+xml" title="Carshire &raquo; Feed" href="feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title="Carshire &raquo; Comments Feed"
-        href="comments/feed/index.html" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>        
+        href="comments/feed/index.html" />     
 
     <style type="text/css">
         img.wp-smiley,
@@ -47,7 +46,7 @@
     </style>
     <link rel='stylesheet' id='carshire-main-color-css'
         href='wp-content/themes/carshire/css/color1ed5.css?main_color=fb4848&amp;ver=5.3.10' type='text/css' />
-    <script type='text/javascript' src='wp-content/cache/busting/1/carshire/wp-includes/js/jquery/jquery-1.12.4-wp.js'></script> 
+    
     <link rel='https://api.w.org/' href='wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
@@ -294,6 +293,11 @@
     <div class="scroll-to-top"></div>
     
     <script src="wp-content/cache/min/1/b8c538acebbb9a9b85f056f399ff4f78.js" data-minify="1" defer></script>
+
+
+    {{-- <script type='text/javascript' src='wp-content/cache/busting/1/carshire/wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>  --}}
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
