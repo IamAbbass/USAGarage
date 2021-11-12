@@ -13,9 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\WebsiteController::class, 'welcome']);
+Route::get('/services', [App\Http\Controllers\WebsiteController::class, 'services']);
+Route::get('/shop', [App\Http\Controllers\WebsiteController::class, 'shop']);
+Route::get('/about', [App\Http\Controllers\WebsiteController::class, 'about']);
+Route::get('/contact', [App\Http\Controllers\WebsiteController::class, 'contact']);
+Route::get('/quote', [App\Http\Controllers\WebsiteController::class, 'quote']);
+Route::get('/cart', [App\Http\Controllers\WebsiteController::class, 'cart']);
+Route::get('/checkout', [App\Http\Controllers\WebsiteController::class, 'checkout']);
+Route::get('/product', [App\Http\Controllers\WebsiteController::class, 'product']);
+
 
 Auth::routes();
 
