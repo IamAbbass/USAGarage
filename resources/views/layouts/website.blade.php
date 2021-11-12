@@ -112,7 +112,7 @@
                                 <li>
                                     <div class="clearfix "> <img
                                             src="wp-content/themes/carshire/images/icons/header-timer.png" alt="image">
-                                        <p><b>Opening Hours</b> <br>Mon - Sat 9.00 - 19.00</p>
+                                        <p><b>Opening Hours</b> <br>Sat - Thu 9.00 - 19.00</p>
                                     </div>
                                 </li>
                                 {{-- <li>
@@ -162,12 +162,13 @@
                             </div>
                         </nav>
                         <div class="col-md-3 col-sm-12 col-xs-12 social-outer">
-                            <div class="social-links text-right"> <a href="http://www.facebook.com/"
-                                    class="fa fa-facebook"></a> <a href="http://www.twitter.com/"
-                                    class="fa fa-twitter"></a> <a href="http://www.instagram.com/"
-                                    class="fa fa-instagram"></a> <a href="http://www.googlepluse.com/"
-                                    class="fa fa-google-plus"></a> <a href="http://www.pinterest.com/"
-                                    class="fa fa-pinterest"></a></div>
+                            <div class="social-links text-right"> 
+                                <a href="http://www.facebook.com/" class="fa fa-facebook"></a> 
+                                {{-- <a href="http://www.twitter.com/" class="fa fa-twitter"></a>  --}}
+                                <a href="http://www.instagram.com/" class="fa fa-instagram"></a> 
+                                {{-- <a href="http://www.googlepluse.com/" class="fa fa-google-plus"></a>  --}}
+                                {{-- <a href="http://www.pinterest.com/" class="fa fa-pinterest"></a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -275,15 +276,16 @@
                 <div class="auto-container">
                     <div class="row clearfix">
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="copyright">Copryright 2020 by Carshire | All rights reserved</div>
+                            <div class="copyright">Copryright 2021 by Solarix Technology | All rights reserved</div>
                         </div>
                         <div class="col-md-6 col-sm-12 col-xs-12">
-                            <div class="social-links"> <a href="http://www.facebook.com/"
-                                    class="fa fa-facebook"></a> <a href="http://www.twitter.com/"
-                                    class="fa fa-twitter"></a> <a href="http://www.instagram.com/"
-                                    class="fa fa-instagram"></a> <a href="http://www.googlepluse.com/"
-                                    class="fa fa-google-plus"></a> <a href="http://www.pinterest.com/"
-                                    class="fa fa-pinterest"></a></div>
+                            <div class="social-links"> 
+                                <a href="http://www.facebook.com/" class="fa fa-facebook"></a> 
+                                {{-- <a href="http://www.twitter.com/" class="fa fa-twitter"></a>  --}}
+                                <a href="http://www.instagram.com/" class="fa fa-instagram"></a> 
+                                {{-- <a href="http://www.googlepluse.com/" class="fa fa-google-plus"></a>  --}}
+                                {{-- <a href="http://www.pinterest.com/" class="fa fa-pinterest"></a> --}}
+                            </div>
                         </div>
                     </div>
                 </div>

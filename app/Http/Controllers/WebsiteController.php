@@ -28,9 +28,7 @@ class WebsiteController extends Controller
             $title = 'Shop';
             $products = Product::all();
         }
-        $ShopCategories = ShopCategory::all();
-
-        
+        $ShopCategories = ShopCategory::orderBy('name')->get(); 
 
 
         return view('shop',[

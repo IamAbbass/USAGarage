@@ -161,7 +161,6 @@ class DefaultSeeder extends Seeder
         ShopCategory::create(['name'=>'Wheel Bearings']);        
         ShopCategory::create(['name'=>'Wheels']);   
         ShopCategory::create(['name'=>'Driveshaft']);   
-        ShopCategory::create(['name'=>'The CoollaboratoryLiquid Coolant Pro is the innovation of coolant for the use in water coolings of High-End PC systems']);
 
 
         Product::create([
