@@ -36,7 +36,7 @@
                                     <div class="inner">
                                         <div class="icon"><span class="{{ $GarageService->icon }}"></span></div>
                                         <h3 class="post-title">{{ $GarageService->name }}</h3>
-                                        <div class="text">{{ $GarageService->content }}</div>
+                                        {{-- <div class="text">{{ $GarageService->content }}</div> --}}
                                     </div>
                                 </article>
                                 
