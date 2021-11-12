@@ -94,27 +94,45 @@
             <div class="header-top">
                 <div class="auto-container">
                     <div class="row clearfix">
-                        <div class="col-md-3 col-sm-3 col-xs-12 logo"> <a href="/"><img class="img-responsive" style="width: 110px;"
-                                    src="wp-content/themes/carshire/images/logo.png" alt="image"></a></div>
-                        <div class="col-lg-5 col-md-6 col-sm-10 header-top-infos pull-right">
+                        <div class="col-md-4 col-sm-4 col-xs-12 logo"> 
+                            <a href="/"><img class="img-responsive" style="width: 110px;"
+                                src="wp-content/themes/carshire/images/logo.png" alt="image"></a>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-10 header-top-infos pull-right" style="margin-top: 35px;">
                             <ul class="clearfix">
-                                <li>
-                                    <div class="clearfix "> <img
-                                            src="wp-content/themes/carshire/images/icons/header-phone.png" alt="image">
+                                <li style="width:33%;">
+                                    <a href="/shop">
+                                        <div class="clearfix "> 
+                                            <div class="icon" style="color: #fb4848; font-size: 35px; float:left; margin: 10px;">
+                                                <span class="flaticon-transport100"></span>
+                                            </div>
+                                            <p style="color: #36404B"><b>Online Shop</b> <br/> 66 Categories</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li style="width:33%;">
+                                    <div class="clearfix "> 
+                                        <div class="icon" style="color: #fb4848; font-size: 35px; float:left; margin: 10px;">
+                                            <span class="fa fa-phone"></span>
+                                        </div>
                                         <p><b>Call Us Now</b> <br> +971 (04) 257 9984</p>
                                     </div>
                                 </li>
-                                <li>
+                                <li style="width:33%;">
+                                    <div class="clearfix "> 
+                                        <div class="icon" style="color: #fb4848; font-size: 35px; float:left; margin: 10px;">
+                                            <span class="fa fa-clock-o"></span>
+                                        </div>
+                                        <p><b>Opening Hours</b> <br> Sat - Thu 9.00 - 19.00</p>
+                                    </div>
+                                </li>
+                                {{-- <li style="width:33%;">
                                     <div class="clearfix "> <img
                                             src="wp-content/themes/carshire/images/icons/header-timer.png" alt="image">
                                         <p><b>Opening Hours</b> <br>Sat - Thu 9.00 - 19.00</p>
                                     </div>
-                                </li>
-                                {{-- <li>
-                                    <div class="clearfix "> 
-                                        <a href="/cart"><i class="fa fa-shopping-cart"></i></a>
-                                    </div>
                                 </li> --}}
+                                
                             </ul>
                         </div>
                     </div>

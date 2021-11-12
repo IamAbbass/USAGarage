@@ -13,7 +13,7 @@
 
         <div class="wpb_column col-md-12">
             <div class="swiffy-slider">
-                <ul class="slider-container">
+                <ul class="slider-container" >
                     <li>
                         <img src="https://source.unsplash.com/49b9l_29ceA/1600x400" style="max-width: 100%;height: auto;">
                     </li>
@@ -72,16 +72,14 @@
                                         {{-- <figcaption class="price"><sup>$</sup>89</figcaption> --}}
                                     </figure>
                                     <div class="post-content clearfix">
-                                        <h3 class="skew-lines">CAR/BIKE REPAIR</h3>
+                                        <h3 class="skew-lines">CAR/BIKE<br/>REPAIR</h3>
                                         <div class="text-center"><a href="/quote" class="theme-btn btn-style-one"><span
                                                     class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
                                     </div>
                                     <div class="overlay-box">
                                         <h3 class="skew-lines">CAR/BIKE REPAIR</h3>
                                         <div class="text">
-                                            <p>Our most popular service is our Virtual Receptionist. We know that
-                                                sometimes it’s difficult to get to the phone if you are in the middle of
-                                                something and you don’t want to miss that important.</p> <br> <a
+                                            <p>Our most popular service is our Virtual Receptionist.</p> <br> <a
                                                 href="/quote" class="theme-btn dark-btn style-two"><span
                                                     class="fa fa-angle-right"></span> GET A QUOTE</a>
                                         </div>
@@ -107,9 +105,7 @@
                                     <div class="overlay-box">
                                         <h3 class="skew-lines">Car/BIKE Modification</h3>
                                         <div class="text">
-                                            <p>Our most popular service is our Virtual Receptionist. We know that
-                                                sometimes it’s difficult to get to the phone if you are in the middle of
-                                                something and you don’t want to miss that important.</p> <br> <a
+                                            <p>Our most popular service is our Virtual Receptionist.</p> <br> <a
                                                 href="/quote" class="theme-btn dark-btn style-two"><span
                                                     class="fa fa-angle-right"></span> GET A QUOTE</a>
                                         </div>
@@ -135,9 +131,7 @@
                                     <div class="overlay-box">
                                         <h3 class="skew-lines">CAR/BIKE INSPECTION</h3>
                                         <div class="text">
-                                            <p>Our most popular service is our Virtual Receptionist. We know that
-                                                sometimes it’s difficult to get to the phone if you are in the middle of
-                                                something and you don’t want to miss that important.</p> <br> <a
+                                            <p>Our most popular service is our Virtual Receptionist.</p> <br> <a
                                                 href="/quote" class="theme-btn dark-btn style-two"><span
                                                     class="fa fa-angle-right"></span> GET A QUOTE</a>
                                         </div>
@@ -161,11 +155,9 @@
                                                     class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
                                     </div>
                                     <div class="overlay-box">
-                                        <h3 class="skew-lines">CUSTOM CAR REPAIR</h3>
+                                        <h3 class="skew-lines">VINTAGE CAR/BIKE RESTORATION</h3>
                                         <div class="text">
-                                            <p>Our most popular service is our Virtual Receptionist. We know that
-                                                sometimes it’s difficult to get to the phone if you are in the middle of
-                                                something and you don’t want to miss that important.</p> <br> <a
+                                            <p>Our most popular service is our Virtual Receptionist.</p> <br> <a
                                                 href="/quote" class="theme-btn dark-btn style-two"><span
                                                     class="fa fa-angle-right"></span> GET A QUOTE</a>
                                         </div>
