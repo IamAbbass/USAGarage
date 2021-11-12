@@ -18,9 +18,7 @@
     <meta name="keywords" content="" />
     <link rel='dns-prefetch' href='http://maps.google.com/' />
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-    <link rel="alternate" type="application/rss+xml" title="Carshire &raquo; Feed" href="feed/index.html" />
-    <link rel="alternate" type="application/rss+xml" title="Carshire &raquo; Comments Feed"
-        href="comments/feed/index.html" />     
+      
 
     <style type="text/css">
         img.wp-smiley,
@@ -47,13 +45,10 @@
     <link rel='stylesheet' id='carshire-main-color-css'
         href='wp-content/themes/carshire/css/color1ed5.css?main_color=fb4848&amp;ver=5.3.10' type='text/css' />
     
-    <link rel='https://api.w.org/' href='wp-json/index.html' />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <meta name="generator" content="WordPress 5.3.10" />
     <meta name="generator" content="WooCommerce 3.4.8" />
-    <link rel="canonical" href="index.html" />
-    <link rel='shortlink' href='index.html' />
     <link rel="alternate" type="application/json+oembed"
         href="wp-json/oembed/1.0/embed752c.json?url=https%3A%2F%2Fourwpdemo.com%2Fcarshire%2F" />
     <link rel="alternate" type="text/xml+oembed"
@@ -99,7 +94,7 @@
             <div class="header-top">
                 <div class="auto-container">
                     <div class="row clearfix">
-                        <div class="col-md-3 col-sm-3 col-xs-12 logo"> <a href="index.html"><img class="img-responsive" style="width: 110px;"
+                        <div class="col-md-3 col-sm-3 col-xs-12 logo"> <a href="/"><img class="img-responsive" style="width: 110px;"
                                     src="wp-content/themes/carshire/images/logo.png" alt="image"></a></div>
                         <div class="col-lg-5 col-md-6 col-sm-10 header-top-infos pull-right">
                             <ul class="clearfix">
