@@ -60,7 +60,7 @@
                             </section>
                         </div>
                         <div class="row clearfix">
-                            <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
+                            <article class="col-md-3 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
                                 data-wow-delay="0ms" data-wow-duration="1000ms"
                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInRight;">
                                 <div class="inner-box">
@@ -72,12 +72,12 @@
                                         {{-- <figcaption class="price"><sup>$</sup>89</figcaption> --}}
                                     </figure>
                                     <div class="post-content clearfix">
-                                        <h3 class="skew-lines">CAR INSPECTION</h3>
+                                        <h3 class="skew-lines">CAR/BIKE REPAIR</h3>
                                         <div class="text-center"><a href="/quote" class="theme-btn btn-style-one"><span
                                                     class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
                                     </div>
                                     <div class="overlay-box">
-                                        <h3 class="skew-lines">CAR INSPECTION</h3>
+                                        <h3 class="skew-lines">CAR/BIKE REPAIR</h3>
                                         <div class="text">
                                             <p>Our most popular service is our Virtual Receptionist. We know that
                                                 sometimes it’s difficult to get to the phone if you are in the middle of
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
+                            <article class="col-md-3 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
                                 data-wow-delay="0ms" data-wow-duration="1000ms"
                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInRight;">
                                 <div class="inner-box">
@@ -100,12 +100,12 @@
                                         {{-- <figcaption class="price"><sup>$</sup>29</figcaption> --}}
                                     </figure>
                                     <div class="post-content clearfix">
-                                        <h3 class="skew-lines">Car Modification</h3>
+                                        <h3 class="skew-lines">Car/BIKE Modification</h3>
                                         <div class="text-center"><a href="/quote" class="theme-btn btn-style-one"><span
                                                     class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
                                     </div>
                                     <div class="overlay-box">
-                                        <h3 class="skew-lines">Car Repairing</h3>
+                                        <h3 class="skew-lines">Car/BIKE Modification</h3>
                                         <div class="text">
                                             <p>Our most popular service is our Virtual Receptionist. We know that
                                                 sometimes it’s difficult to get to the phone if you are in the middle of
@@ -116,7 +116,7 @@
                                     </div>
                                 </div>
                             </article>
-                            <article class="col-md-4 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
+                            <article class="col-md-3 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
                                 data-wow-delay="0ms" data-wow-duration="1000ms"
                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInRight;">
                                 <div class="inner-box">
@@ -128,7 +128,35 @@
                                         {{-- <figcaption class="price"><sup>$</sup>59</figcaption> --}}
                                     </figure>
                                     <div class="post-content clearfix">
-                                        <h3 class="skew-lines">CAR INSPECTION</h3>
+                                        <h3 class="skew-lines">CAR/BIKE INSPECTION</h3>
+                                        <div class="text-center"><a href="/quote" class="theme-btn btn-style-one"><span
+                                                    class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
+                                    </div>
+                                    <div class="overlay-box">
+                                        <h3 class="skew-lines">CAR/BIKE INSPECTION</h3>
+                                        <div class="text">
+                                            <p>Our most popular service is our Virtual Receptionist. We know that
+                                                sometimes it’s difficult to get to the phone if you are in the middle of
+                                                something and you don’t want to miss that important.</p> <br> <a
+                                                href="/quote" class="theme-btn dark-btn style-two"><span
+                                                    class="fa fa-angle-right"></span> GET A QUOTE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="col-md-3 col-sm-6 col-xs-12 column-box wow fadeInRight animated"
+                                data-wow-delay="0ms" data-wow-duration="1000ms"
+                                style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInRight;">
+                                <div class="inner-box">
+                                    <figure class="image"> <a href="#"><img width="369" height="230"
+                                                src="https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2.jpg"
+                                                class="attachment-carshire1 size-carshire1 wp-post-image" alt=""
+                                                srcset="https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2.jpg 369w, https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2-300x187.jpg 300w, https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2-268x167.jpg 268w"
+                                                sizes="(max-width: 369px) 100vw, 369px"></a>
+                                        {{-- <figcaption class="price"><sup>$</sup>59</figcaption> --}}
+                                    </figure>
+                                    <div class="post-content clearfix">
+                                        <h3 class="skew-lines">VINTAGE CAR/BIKE RESTORATION</h3>
                                         <div class="text-center"><a href="/quote" class="theme-btn btn-style-one"><span
                                                     class="fa fa-angle-right"></span>GET A QUOTE</a> </div>
                                     </div>
