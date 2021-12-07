@@ -24,25 +24,21 @@
             @endif
     
             <!-- Page Heading -->
-            <h1 class="h3 mb-2 text-gray-800">Products</h1>
+            <h1 class="h3 mb-2 text-gray-800">Products 
+                <a class="btn btn-primary float-right" href="/home/product/create">Add Product</a>
+            </h1>
 
             <!-- DataTales Example -->
             <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Products
-                        <a class="btn btn-primary float-right" href="/home/product/create">Add Product</a>
-                    </h6>
-                    
-                </div>
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                             <thead>
                                 <tr> 
                                     <th>#</th>
+                                    <th>Image</th>
                                     <th>Category</th>
                                     <th>Title</th>
-                                    <th>Image</th>
                                     <th>Brand</th>
                                     <th>Note</th>
                                     <th>Years</th>
@@ -53,28 +49,26 @@
                             <tfoot>
                                 <tr>
                                     <th>#</th>
+                                    <th>Image</th>
                                     <th>Category</th>
                                     <th>Title</th>
-                                    <th>Image</th>
                                     <th>Brand</th>
                                     <th>Note</th>
                                     <th>Years</th>
                                     <th>Price</th>
-                                    {{-- <th>In Stock</th> --}}
+                                    <th>In Stock</th>
                                 </tr>
                             </tfoot>
                             <tbody>
                                 
                                 @foreach ($products as $index => $product)
-
-
                                     <tr>
                                         <td>{{++$index}}.</td>
-                                        <td>{{ $product->category_id }}</td>
-                                        <td>{{ $product->title }}</td>
                                         <td>
-                                            <img style="width: 100px;" src="{{asset('/uploads/'.$product->image)}}" />
+                                            <img style="width: 100px;" src="{{ asset('/uploads/'.$product->image) }}" />
                                         </td>
+                                        <td>{{ $product->title }}</td>
+                                        <td>{{ $product->category->name }}</td>
                                         <td>{{ $product->brand }}</td>
                                         <td>{{ $product->note }}</td>
                                         <td>{{ $product->years }}</td>

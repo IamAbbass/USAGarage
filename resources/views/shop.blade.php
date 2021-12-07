@@ -83,7 +83,7 @@
                                         <div class="inner-box">
                                             <div class="image"> <a href="/product?p={{ $product->id }}"> <img
                                                         width="300" height="300"
-                                                        src="{{ $product->image }}"
+                                                        src="{{ asset('/uploads/'.$product->image) }}"
                                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image"
                                                         alt=""
                                                         sizes="(max-width: 300px) 100vw, 300px"> </a></div>
@@ -96,8 +96,8 @@
                                                                 class="woocommerce-Price-currencySymbol">£</span>15.00</span></del> --}}
                                                     <ins><span class="woocommerce-Price-amount amount"><span
                                                                 class="woocommerce-Price-currencySymbol">AED </span>{{ $product->price }}</span></ins></span>
-                                                <a href="/cart?p={{ $product->id }}" class="theme-btn dark-btn">Add to
-                                                    cart</a>
+                                                {{-- <a href="/cart?p={{ $product->id }}" class="theme-btn dark-btn">Add to
+                                                    cart</a> --}}
                                             </div>
                                         </div>
                                     </div>                                    

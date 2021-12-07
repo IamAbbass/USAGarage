@@ -32,8 +32,8 @@ class ProductController extends Controller
     public function store(Request $request)
     {
         $file = $request->file('image');
-        $destinationPath    = public_path('uploads/'); // upload path
-        $upload             = date('YmdHis') . "." . $file->getClientOriginalExtension();
+        $destinationPath    = 'uploads/'; // upload path
+        $upload             = time().".".$file->getClientOriginalExtension();
         $file->move($destinationPath, $upload);
 
         Product::create([

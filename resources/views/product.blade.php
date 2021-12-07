@@ -70,15 +70,15 @@
                                                         data-columns="4"
                                                         style="opacity: 1; transition: opacity 0.25s ease-in-out 0s;">
                                                         <figure class="woocommerce-product-gallery__wrapper">
-                                                            <div data-thumb="{{ $product->image }}"
+                                                            <div data-thumb="{{ asset('/uploads/'.$product->image) }}"
                                                                 class="woocommerce-product-gallery__image"><a
-                                                                    href="{{ $product->image }}"><img
+                                                                    href="{{ asset('/uploads/'.$product->image) }}"><img
                                                                         width="600" height="600"
-                                                                        src="{{ $product->image }}"
+                                                                        src="{{ asset('/uploads/'.$product->image) }}"
                                                                         class="wp-post-image" alt="" title="T_7_front"
                                                                         data-caption=""
-                                                                        data-src="{{ $product->image }}"
-                                                                        data-large_image="{{ $product->image }}"
+                                                                        data-src="{{ asset('/uploads/'.$product->image) }}"
+                                                                        data-large_image="{{ asset('/uploads/'.$product->image) }}"
                                                                         data-large_image_width="1000"
                                                                         data-large_image_height="1000"
                                                                         sizes="(max-width: 600px) 100vw, 600px"></a></div>
@@ -99,32 +99,27 @@
 
                                                             <p><strong>Brand: </strong> {{ $product->brand }}</p>
                                                             <p><strong>Years: </strong> {{ $product->years }}</p>
+                                                            <p><strong>Price: </strong> AED {{ $product->price }}</p>
 
                                                         </div>
-                                                    </div>
-                                                    <div class="item-price">Price : 
-                                                        <p class="price"><span
-                                                                class="woocommerce-Price-amount amount"><span
-                                                                    class="woocommerce-Price-currencySymbol">AED </span>{{ $product->price }}</span>
-                                                        </p>
                                                     </div>
 
                                                     <div class="other-options clearfix">
 
 
                                                         <form class="cart" action="/cart">
-                                                            <div class="quantity">
+                                                            {{-- <div class="quantity">
                                                                 <label class="screen-reader-text"
                                                                     for="quantity_618e19700406e">Quantity</label>
                                                                 <input type="number" id="quantity_618e19700406e"
                                                                     class="input-text qty text" step="1" min="1" max=""
                                                                     name="quantity" value="1" title="Qty" size="4"
                                                                     pattern="[0-9]*" inputmode="numeric" aria-labelledby="">
-                                                            </div>
+                                                            </div> --}}
 
-                                                            <button type="submit" name="add-to-cart" value="334"
+                                                            {{-- <button type="submit" name="add-to-cart" value="334"
                                                                 class="theme-btn btn-style-one add-to-cart">Add to
-                                                                cart</button>
+                                                                cart</button> --}}
 
                                                         </form>
 
