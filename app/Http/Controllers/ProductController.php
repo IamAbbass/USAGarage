@@ -3,39 +3,52 @@
 namespace App\Http\Controllers;
 
 use App\Models\Product;
+use App\Models\ShopCategory;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     public function index()
     {
-        //
+        $products = Product::all();
+        return view('dashboard/products/list',[
+            'products' => $products,
+        ]);        
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
     public function create()
     {
-        //
+        $categories = ShopCategory::all();
+        return view('dashboard/products/create',[
+            'categories' => $categories,
+        ]); 
     }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+    
     public function store(Request $request)
     {
-        //
+        $file = $request->file('image');
+        $destinationPath    = public_path('uploads/'); // upload path
+        $upload             = date('YmdHis') . "." . $file->getClientOriginalExtension();
+        $file->move($destinationPath, $upload);
+
+        Product::create([
+            'category_id'   => request('category_id'),
+            'title'         => request('title'),
+            'image'         => $upload,
+            'brand'         => request('brand'),
+            'note'          => request('note'),
+            'years'         => request('years'),
+            'price'         => request('price'),
+            'in_stock'      => (request('in_stock') == "true"),
+        ]);
+
+        session()->flash('success','Product Successfully Added!');
+        return redirect('/home/product');
     }
 
     /**

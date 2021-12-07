@@ -24,6 +24,7 @@ Route::get('/checkout', [App\Http\Controllers\WebsiteController::class, 'checkou
 Route::get('/product', [App\Http\Controllers\WebsiteController::class, 'product']);
 
 
-Auth::routes();
+Auth::routes(['register'=>false]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::resource('/home/product', App\Http\Controllers\ProductController::class);

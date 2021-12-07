@@ -6,6 +6,7 @@ use Illuminate\Database\Seeder;
 use \App\Models\GarageService;
 use \App\Models\ShopCategory;
 use \App\Models\Product;
+use \App\Models\User;
 
 class DefaultSeeder extends Seeder
 {
@@ -16,6 +17,14 @@ class DefaultSeeder extends Seeder
      */
     public function run()
     {
+
+        User::create([
+            'name'      => 'Admin',
+            'email'     => 'admin@gmail.com',
+            'password'  => '$2a$12$M1vH8rTdy79NoueiHLZjkuEIKApGoHUKMbtkj7h8dFFybFcPRy/4S' //usa12345
+        ]);
+
+
         GarageService::create([
             'name' => 'Engine Repair, Overhaul and Rebuild',
             'icon' => 'flaticon-vehicle92',
@@ -163,45 +172,7 @@ class DefaultSeeder extends Seeder
         ShopCategory::create(['name'=>'Driveshaft']);   
 
 
-        Product::create([
-            'category_id'=>'1',
-            'title'=>'Brake Master Cylinder',
-            'image'=>'https://www.discountautoparts.com/product_images/products/D0114-R248342_1.jpg',
-            'brand'=>'Replacement',
-            'note'=>'The CoollaboratoryLiquid Coolant Pro is the innovation of coolant for the use in water coolings of High-End PC systems',
-            'years'=>'2019',
-            'price'=>'100'
-        ]);   
-
-        Product::create([
-            'category_id'=>'2',
-            'title'=>'Brake Master Cylinder',
-            'image'=>'https://www.discountautoparts.com/product_images/products/D0114-R248342_1.jpg',
-            'brand'=>'Condenser',
-            'note'=>'The CoollaboratoryLiquid Coolant Pro is the innovation of coolant for the use in water coolings of High-End PC systems',
-            'years'=>'2020',
-            'price'=>'600'
-        ]);  
-
-        Product::create([
-            'category_id'=>'3',
-            'title'=>'Air Cooler Master',
-            'image'=>'https://www.discountautoparts.com/product_images/products/D0114-R248342_1.jpg',
-            'brand'=>'Climate Control',
-            'note'=>'The CoollaboratoryLiquid Coolant Pro is the innovation of coolant for the use in water coolings of High-End PC systems',
-            'years'=>'2018',
-            'price'=>'160'
-        ]);  
-
-        Product::create([
-            'category_id'=>'4',
-            'title'=>'Coolant Liquid Pro',
-            'image'=>'https://www.discountautoparts.com/product_images/products/D0114-R248342_1.jpg',
-            'brand'=>'Replacement',
-            'note'=>'The CoollaboratoryLiquid Coolant Pro is the innovation of coolant for the use in water coolings of High-End PC systems',
-            'years'=>'2016',
-            'price'=>'150'
-        ]);   
+        
         
     }
 }

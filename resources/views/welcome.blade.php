@@ -143,9 +143,8 @@
                                 style="visibility: visible; animation-duration: 1000ms; animation-delay: 0ms; animation-name: fadeInRight;">
                                 <div class="inner-box">
                                     <figure class="image"> <a href="#"><img width="369" height="230"
-                                                src="https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2.jpg"
+                                                src="{{ asset('/theme/vintage.jpg') }}"
                                                 class="attachment-carshire1 size-carshire1 wp-post-image" alt=""
-                                                srcset="https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2.jpg 369w, https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2-300x187.jpg 300w, https://ourwpdemo.com/carshire/wp-content/uploads/2015/12/post-image-2-268x167.jpg 268w"
                                                 sizes="(max-width: 369px) 100vw, 369px"></a>
                                         {{-- <figcaption class="price"><sup>$</sup>59</figcaption> --}}
                                     </figure>

@@ -1,23 +1,39 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+<div id="content-wrapper" class="d-flex flex-column">
 
-                    {{ __('You are logged in!') }}
+    <!-- Main Content -->
+    <div id="content">
+
+        @include('layouts.includes.admin.nav')
+
+        <div class="container-fluid">
+
+            @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
                 </div>
-            </div>
+            @endif
+
+            @if (session('error'))
+                <div class="alert alert-danger">
+                    {{ session('error') }}
+                </div>
+            @endif
+    
+            <!-- Page Heading -->
+            <h1 class="h3 mb-2 text-gray-800">Welcome to {{ env('APP_NAME') }} Admin Panel</h1>
+
+
         </div>
+
     </div>
+    <!-- End of Main Content -->
+
+    @include('layouts.includes.admin.footer')
+
 </div>
+
 @endsection
